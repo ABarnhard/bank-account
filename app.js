@@ -28,6 +28,6 @@ if(balance < 0){
   balance -= 50;
 }
 
-console.log('Your final balance is:', balance.toFixed(2));
+console.log('Your final balance is: $' + balance.toFixed(2));
 
 
