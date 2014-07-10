@@ -3,8 +3,8 @@ var chalk = require('chalk');
 
 var balance = 1000.00;
 var amount;
-var deposits = [];
-var withdraws = [];
+var deposits = [0];
+var withdraws = [0];
 
 var action = prompt('Do you want to (d)eposit/(w)ithdraw/(q)uit? ');
 while(action !== 'q'){
